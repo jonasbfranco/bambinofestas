@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Ambientes from '../views/Ambientes.vue'
+import Cardapios from '../views/Cardapios.vue'
+import Estrutura from '../views/Estrutura.vue'
+
 
 Vue.use(VueRouter)
 
@@ -9,6 +13,21 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/ambientes',
+    name: 'Ambiente',
+    component: Ambientes
+  },
+  {
+    path: '/cardapio',
+    name: 'Cardapios',
+    component: Cardapios
+  },
+  {
+    path: '/estrutura',
+    name: 'Estrutura',
+    component: Estrutura
   },
   {
     path: '/about',

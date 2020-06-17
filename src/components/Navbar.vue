@@ -8,7 +8,7 @@
         </v-app-bar>
 
         <v-navigation-drawer v-model="drawer" absolute temporary class="primary">   
-            <v-list>
+            <v-list class="mt-5">
                 <v-list-item v-for="link in links" :key="link.text" router :to="link.route">
                     <v-list-item-icon>
                         <v-icon class="white--text">{{ link.icon }}</v-icon>
