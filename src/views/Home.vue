@@ -173,7 +173,7 @@ a {
 }
 @media screen and (max-width: 390px) {
   .text-love {
-  font-size: 2rem !important;
+  font-size: 1.94rem !important;
 }
 .text-hastag {
   font-size: 1rem !important;
