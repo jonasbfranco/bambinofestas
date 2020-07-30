@@ -142,3 +142,10 @@ git push -u origin master
 
 - modal pwa install vue
 - https://pt.goodbarber.com/
+
+
+
+## Docker
+
+- docker-compose up
+- 
