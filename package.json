@@ -44,7 +44,7 @@
     "open": "^7.0.3",
     "sass": "^1.19.0",
     "sass-loader": "^8.0.0",
-    "shelljs": "^0.8.4",
+    "shelljs": "^0.8.5",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
     "vue-cli-plugin-vuetify": "~2.0.5",
